@@ -2,7 +2,7 @@ package app.samples.demo.utils;
 
 import java.util.Arrays;
 
-class IntSet {
+public class IntSet {
     private int [] items;
     private int size;
 

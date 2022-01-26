@@ -31,6 +31,19 @@ public class IntSetTest {
     }
 
     @Test
+    public void that_set_is_empty_after_clearing() {
+        // given
+        IntSet testClass = new IntSet();
+        testClass.add(5);
+
+        // when
+        testClass.clear();
+
+        // then
+        assertTrue(testClass.isEmpty());
+    }
+
+    @Test
     public void that_size_increments_after_adding() {
         // given
         IntSet testClass = new IntSet();

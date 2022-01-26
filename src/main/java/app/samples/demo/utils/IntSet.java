@@ -51,4 +51,8 @@ class IntSet {
         }
         return -1;
     }
+
+    public void clear() {
+        size = 0;
+    }
 }

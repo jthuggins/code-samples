@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class InvoiceProcessingService {
     
-    private IntSet invoiceNumbers;
+    private final IntSet invoiceNumbers;
     
     public boolean isProcessed(int invoice) {
         return invoiceNumbers.contains(invoice);
